@@ -1,0 +1,47 @@
+body{
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
+
+.menu{
+    background-color: azure;
+    font-family: 'Poppins';
+}
+
+.menu h2{
+    display: inline;
+}
+
+a{
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1{
+    font-family: serif;
+    font-size: 32px;
+}
+
+img{
+    float: right;
+    width: 500px;
+}
+
+p{
+    font-family: 'Helvetica';
+    font-size: 18px;
+}
+
+.redes img{
+    width: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.redes a{
+    color: red;
+}
