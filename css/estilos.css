@@ -2,11 +2,11 @@ body{
     padding-top: 20px;
     width: 80%;
     margin: auto;
-    background-color: aqua;
+    background-color: #6f740b4f;
 }
 
 .menu{
-    background-color: azure;
+    background-color: #dfcdc3;
     font-family: 'Poppins';
 }
 
