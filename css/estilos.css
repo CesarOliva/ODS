@@ -1,3 +1,4 @@
+/*Estilos Generales del body y menú*/
 body{
     padding-top: 20px;
     width: 80%;
@@ -5,43 +6,124 @@ body{
     background-color: #6f740b4f;
 }
 
-.menu{
-    background-color: #dfcdc3;
-    font-family: 'Poppins';
+.navbar{
+    margin: 0 0 20px 0;
 }
 
-.menu h2{
+.navbar h2{
     display: inline;
+    font-family: 'Poppins';
+    font-size: 24px;
+    padding-left: 10px;
+    font-weight: 500;
+    margin: 0;
+    padding-right: 5px;
 }
 
-a{
+.navbar a{
     font-family: 'Poppins';
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-h1{
-    font-family: serif;
-    font-size: 32px;
+/*Estilos Inicio*/
+.main{
+    padding: 0 10px 0 10px;
 }
 
-img{
+.main img{
     float: right;
     width: 500px;
 }
 
-p{
-    font-family: 'Helvetica';
-    font-size: 18px;
+.main h1{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 32px;
+    display: inline;
 }
 
+.main p{
+    font-family: 'Poppins';
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*Estilos Contacto*/
 .redes img{
     width: 100px;
     padding-left: 10px;
     padding-right: 10px;
+    float: right;
 }
 
 .redes a{
-    color: red;
+    color: #0D6EFD;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*Estilos Articulo*/
+.header{
+    background: #e6c18d;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+}
+
+.header h1{
+    font-family: 'Poppins';
+    font-size: 32px;
+    margin: 0;
+}
+
+.header p{
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.imagenes{
+    background: #dfcdc3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imagenes img{
+    width: 30%;
+}
+
+.body{
+    background: #ffebbb;
+    padding: 10px;
+}
+
+.body h3{
+    font-size: 22px;
+    font-family: 'Helvetica';
+    margin-bottom: 0;
+}
+
+.body p{
+    font-size: 16px;
+    font-family: 'Open Sans';
+}
+
+.footer{
+    background: #dfcdc3;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    margin: 20px 0 20px 0;
+}
+
+.footer span{
+    color: #138bf4;
+}
+
+.footer i.fuente{
+    font-size: 16px;
+    font-family: 'Poppins';
 }
