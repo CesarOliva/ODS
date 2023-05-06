@@ -13,7 +13,7 @@ body{
 .navbar h2{
     display: inline;
     font-family: 'Poppins';
-    font-size: 24px;
+    font-size: 22px;
     padding-left: 10px;
     font-weight: 500;
     margin: 0;
@@ -24,19 +24,17 @@ body{
     margin: 10px 0;
 }
 
+.navbar li.active a{
+    color: #000;
+    font-weight: 500;
+}
+
 .navbar a{
     font-family: 'Poppins';
     font-size: 18px;
     padding-left: 10px;
     padding-right: 10px;
-    color: black;
-}
-
-.navbar .show a{
-    color: black;
-    font-family: 'Poppins';
-    font-size: 18px;
-    text-decoration: none;
+    color: #353739;
 }
 
 /*Estilos Inicio*/
