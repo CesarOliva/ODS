@@ -12,10 +12,19 @@
   max-width: 1140px;
 }
 
+.container .row .col{
+  padding: 0;
+}
+
 /*Estilos Menú*/
 
 .ods {
   max-width: calc(80% - 16px);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
 }
 
 button.navbar-toggler {
@@ -83,37 +92,6 @@ p.obj11 {
 
 span.enfasis {
   font-weight: bold;
-}
-
-span.tooltip-texto {
-  text-decoration: underline;
-  position: relative;
-  display: inline-block;
-}
-
-.tooltip-texto .tooltiptext {
-  visibility: hidden;
-  width: 200px;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -100px;
-  background-color: #63676b;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip-texto:hover .tooltiptext {
-  visibility: visible;
-}
-
-.tooltiptext {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
 }
 
 .container-accordion .row{
@@ -194,7 +172,7 @@ table .numero-bold{
   margin-bottom: 20px;
 }
 
-.modal img{
+.modal .img img{
   max-width: 200px;
   max-height: 200px;
 }
@@ -202,6 +180,130 @@ table .numero-bold{
 .modal .modal-dialog{
   min-width: 60%;
 }
+
+.order-lg-0{
+  display: flex;
+  justify-content: center;
+}
+
+.order-lg-0 img{
+  width: 300px;
+}
+
+/*Estilos Recursos*/
+
+.contenedor-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.contenedor-main h2{
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.contenedor-recursos{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.contenedor-recursos .card{
+  margin: 20px;
+}
+
+.contenedor-recursos .card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contenedor-recursos .boton{
+  display: flex;
+  justify-content: center;
+}
+
+.videos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*Estilos Contacto*/
+
+.form .contenedor-main{
+  padding: 0 10px;
+}
+
+.form .contenedor-main{
+  max-width: 700px;
+}
+
+.container.form{
+  min-height: calc(100vh - 278px);
+  display: flex;
+  align-items: center;
+}
+
+.container.form .col{
+  display: flex;
+  flex-direction: column;
+}
+
+.container.form img{
+  margin: 15px 0;
+}
+
+.container.form .img{
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+}
+
+.container.form p{
+  font-size: 17px  
+}
+
+.form input.name{
+  max-width: 300px;
+}
+
+form{
+  padding: 20px;
+  border: #415e8435 1px solid;
+  margin-bottom: 20px;
+}
+
+.form i.fa-facebook-f{
+  color: #1877f2;
+  font-size: 80px;
+}
+
+.form i.fa-flickr{
+  color: #0063dc;
+  font-size: 80px;
+}
+
+.form i.fa-twitter{
+  color: #1da1f2;
+  font-size: 80px;
+}
+
+.form i.fa-vimeo-v{
+  color: #1ab7ea;
+  font-size:80px
+}
+
+.form .init {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
 /*Estilos footer*/
 
 footer {
@@ -215,6 +317,7 @@ footer .container {
   flex-direction: column;
   align-items: center;
 }
+
 footer a {
   color: #fff;
   text-decoration: none;
