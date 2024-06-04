@@ -22,6 +22,9 @@
   max-width: calc(80% - 16px);
 }
 
+nav img{
+  margin: 0 10px;
+}
 .navbar{
   display: flex;
   justify-content: space-around;
