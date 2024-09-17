@@ -119,6 +119,10 @@ table .numero-bold{
     flex-direction: column;
 }
 
+.informacion p{
+  padding: 0 20px;
+}
+
 .informacion .boton{
     display: flex;
 }
